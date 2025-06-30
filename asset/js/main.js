@@ -6,4 +6,4 @@ document.querySelector(".order-form").addEventListener("submit", function(e){
     let total = kg * price;
     document.querySelector(".total").innerHTML = "Total: " + total + " VND";
     document.querySelector(".order-form").reset();
-});
+});s

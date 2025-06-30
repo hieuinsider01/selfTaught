@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .price-table th, .price-table td {
+        padding: 12px;
+    }
+
+    .contact input, .contact button {
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+
+    .order-form p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .price-table {
+        font-size: 14px;
+    }
+
+    .contact input, .contact button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .order-form p {
+        font-size: 14px;
+    }
+
+    #order-checkout {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .price-table th, .price-table td {
+        padding: 8px;
+    }
+
+    .contact input, .contact button {
+        padding: 6px;
+    }
+
+    img {
+        padding: 2px;
+    }
+
+    .order-form p {
+        font-size: 12px;
+    }
+}
