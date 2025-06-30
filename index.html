@@ -25,6 +25,19 @@
             <input type="number" class="form-control" placeholder="Số điện thoại" required>
             <button class="form-submit ">Gửi</button>
         </form>
+        <form action="" class="order-form">
+            <p>Loại chanh
+                <select name="type" id="" class="order-element">
+                    <option value="">(Vui lòng chọn)</option>
+                    <option value="type1">Loại 1 (20.000đ/kg)</option>
+                    <option value="type2">Loại 2 (15.000đ/kg)</option>
+                </select>
+            </p>
+            <p>Số kg: <input type="number" name="number" placeholder="Vui lòng nhập số kg cần mua" class="order-element" required></p>
+            <button id="order-checkout" type="submit">Tính tiền</button>
+        </form>
+        <div class="total"></div>
+    <script src="./asset/js/main.js"></script>
     </div>
 </body>
 </html>
